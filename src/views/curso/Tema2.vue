@@ -1006,15 +1006,15 @@ export default {
 
 .bg-color-6
   background: #EEF9FE !important
-  border-color: rgb(191 219 254)  !important
+  border-color: rgb(191, 219, 254)  !important
 
 .text-color-6
-  color: rgb(30 64 175) !important
+  color: rgb(30, 64, 175) !important
 
 .bg-color-white
   background: #fff !important
-  border: 2px solid rgb(191 219 254)  !important
-  border-color: rgb(191 219 254)  !important
+  border: 2px solid rgb(191, 219, 254)  !important
+  border-color: rgb(191, 219, 254)  !important
 
 
 .bg-color-white-light
@@ -1098,7 +1098,7 @@ code
     font-size: 1rem
 
     &.text-success
-      color: rgb(74 222 128) !important
+      color: rgb(74, 222, 128) !important
 
     &.text-info
       color: #58a6ff !important
@@ -1107,17 +1107,17 @@ code
       color: #f85149 !important
 
     &.text-yellow
-      color: rgb(251 191 36) !important
+      color: rgb(251, 191, 36) !important
 
 .bg-yellow-50
-  background: rgb(254 252 232) !important
-  border: 1px solid rgb(251 191 36) !important
+  background: rgb(254, 252, 232) !important
+  border: 1px solid rgb(251, 191, 36) !important
 
 .text-yellow-700
-  color: rgb(180 83 9)  !important
+  color: rgb(180, 83, 9)  !important
 
 .text-success
-  color: rgb(74 222 128) !important
+  color: rgb(74, 222, 128) !important
 
 .rounded-lg
   border-radius: 0.5rem !important
@@ -1210,7 +1210,7 @@ code
   border-color: rgba(220, 53, 69, 0.2) !important
 
 .border-purple-subtle
-  border-color: rgb(233 213 255) !important
+  border-color: rgb(233, 213, 255) !important
 
 
 // Tarjetas simples para el ejemplo (estilo de la imagen)
