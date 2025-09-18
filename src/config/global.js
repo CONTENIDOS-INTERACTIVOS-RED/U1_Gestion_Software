@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '1',
+    tituloUnidad: 'Control de versiones',
   },
   menuPrincipal: {
     menu: [
@@ -15,19 +15,19 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Herramientas de control (Git, SVN)',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Introducción al control de versiones',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Funcionamiento básico de Git',
             hash: 't_1_2',
           },
         ],
@@ -36,47 +36,44 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Creación de ramas y fusiones',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Concepto de ramificación (branching)',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Creación y gestión de ramas',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Subtítulo tema',
+            titulo: 'Flujos de trabajo con ramas',
             hash: 't_2_3',
           },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Título tema',
-        desarrolloContenidos: true,
-        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
+            numero: '2.4',
+            titulo: 'Fusiones (mergers) y sus tipos',
+            hash: 't_2_4',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
+            numero: '2.5',
+            titulo: 'Resolución de conflictos en fusiones',
+            hash: 't_2_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.6',
+            titulo: 'Alternativas a la fusión: el rebase',
+            hash: 't_2_6',
           },
         ],
       },
@@ -117,27 +114,84 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+      referencia: 'Chacon, S., & Straub, B. (2014). Pro Git (2.ª ed.). Apress.',
+      link: 'https://git-scm.com/book/es/v2',
+    },
+    {
+      referencia: "Chuck's Academy. (s.f.). Resolución de conflictos en Git.",
+      link: 'https://www.chucksacademy.com/es/topic/git-conflicts',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Guillamón Morales, A. (2013). Manual desarrollo de elementos software para gestión de sistemas: ( ed.). Editorial CEP, S.L.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/50603',
+    },
+    {
+      referencia:
+        'Pérez Martínez, E. (2015). Desarrollo de aplicaciones mediante el Framework de Spring: ( ed.). RA-MA Editorial.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/107207',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Branch (Rama)',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Línea independiente de desarrollo dentro de un sistema de control de versiones, utilizada para trabajar en nuevas funcionalidades o correcciones sin afectar el código principal.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Checkout',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Acción mediante la cual se selecciona una versión específica de un archivo o rama dentro del repositorio para trabajar localmente con ella.',
+    },
+    {
+      termino: 'Commit',
+      significado:
+        'Registro o confirmación de un conjunto de cambios realizados en archivos del repositorio. Incluye un mensaje descriptivo que ayuda a documentar el historial del proyecto.',
+    },
+    {
+      termino: 'Conflicto de fusión',
+      significado:
+        'Situación que ocurre cuando dos ramas modifican la misma parte de un archivo de forma incompatible, lo que requiere intervención manual para resolverlo.',
+    },
+    {
+      termino: 'Control de versiones',
+      significado:
+        'Sistema que permite gestionar los cambios realizados sobre archivos o proyectos a lo largo del tiempo, facilitando la colaboración, el seguimiento y la recuperación de versiones anteriores.',
+    },
+    {
+      termino: 'Fork',
+      significado:
+        'Copia de un repositorio que permite realizar cambios independientes al proyecto original, comúnmente utilizada en proyectos de código abierto.',
+    },
+    {
+      termino: 'Fusión (Merge)',
+      significado:
+        'Proceso mediante el cual se integran los cambios de una rama a otra, unificando el historial de desarrollo.',
+    },
+    {
+      termino: 'Git',
+      significado:
+        'Sistema de control de versiones distribuido ampliamente utilizado en el desarrollo de software, que permite trabajar de forma local y sincronizar con repositorios remotos.',
+    },
+    {
+      termino: 'Historial',
+      significado:
+        'Registro cronológico de todos los commits realizados en un repositorio, que permite rastrear los cambios y sus autores.',
+    },
+    {
+      termino: 'Repositorio',
+      significado:
+        'Espacio central donde se almacenan los archivos del proyecto y su historial de versiones. Puede ser local o remoto.',
+    },
+    {
+      termino: 'Resolución de conflictos',
+      significado:
+        'Proceso de revisión y corrección de inconsistencias surgidas durante una fusión, cuando hay modificaciones incompatibles entre ramas.',
+    },
+    {
+      termino: 'SVN (Subversion)',
+      significado:
+        'Sistema de control de versiones centralizado que permite a múltiples usuarios trabajar sobre un proyecto compartido, con control central del repositorio.',
     },
   ],
 }
