@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="889" height="437.761" viewBox="0 0 889 437.761">
+  <g id="Grupo_1225607" data-name="Grupo 1225607" transform="translate(-366 -6026)">
+    <rect id="Rectángulo_422117" data-name="Rectángulo 422117" width="158" height="70" transform="translate(366 6026)" fill="#5c2c88"/>
+    <rect id="Rectángulo_422118" data-name="Rectángulo 422118" width="158" height="70" transform="translate(574 6026)" fill="#5c2c88"/>
+    <rect id="Rectángulo_422119" data-name="Rectángulo 422119" width="158" height="70" transform="translate(792 6026)" fill="#5c2c88"/>
+    <rect id="Rectángulo_422120" data-name="Rectángulo 422120" width="158" height="70" transform="translate(1097 6026)" fill="#5c2c88"/>
+    <text id="Working_Directory" data-name="Working
+Directory" transform="translate(446 6057)" fill="#fff" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700" letter-spacing="0em"><tspan x="-35.843" y="0">Working</tspan><tspan x="-39.523" y="22">Directory</tspan></text>
+    <text id="Staging_Area" data-name="Staging
+Area" transform="translate(653 6057)" fill="#fff" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700" letter-spacing="0em"><tspan x="-33.004" y="0">Staging</tspan><tspan x="-20.015" y="22">Area</tspan></text>
+    <text id="Git_Add" data-name="Git Add" transform="translate(541 6194)" fill="#212429" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700" letter-spacing="0em"><tspan x="-32.169" y="0">Git Add</tspan></text>
+    <text id="Git_Commit" data-name="Git Commit" transform="translate(763 6243)" fill="#212429" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700" letter-spacing="0em"><tspan x="-48.506" y="0">Git Commit</tspan></text>
+    <text id="Git_push" data-name="Git push" transform="translate(1028 6264)" fill="#212429" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700" letter-spacing="0em"><tspan x="-36.503" y="0">Git push</tspan></text>
+    <text id="Git_Fetch_Pull" data-name="Git Fetch/Pull" transform="translate(1028 6376)" fill="#212429" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700" letter-spacing="0em"><tspan x="-58.015" y="0">Git Fetch/Pull</tspan></text>
+    <text id="Git_Checkout" data-name="Git Checkout" transform="translate(763 6351)" fill="#212429" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700" letter-spacing="0em"><tspan x="-56.014" y="0">Git Checkout</tspan></text>
+    <text id="Git_Merge" data-name="Git Merge" transform="translate(763 6442)" fill="#212429" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700" letter-spacing="0em"><tspan x="-41.514" y="0">Git Merge</tspan></text>
+    <text id="Local_Repository" data-name="Local
+Repository" transform="translate(871 6057)" fill="#fff" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700" letter-spacing="0em"><tspan x="-23.51" y="0">Local</tspan><tspan x="-47.016" y="22">Repository</tspan></text>
+    <text id="Remote_Repository" data-name="Remote
+Repository" transform="translate(1176 6057)" fill="#fff" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700" letter-spacing="0em"><tspan x="-33.012" y="0">Remote</tspan><tspan x="-47.016" y="22">Repository</tspan></text>
+    <path id="Trazado_1051986" data-name="Trazado 1051986" d="M305,6122.576v353.185" transform="translate(140 -12)" fill="none" stroke="#062678" stroke-width="3"/>
+    <path id="Trazado_1051987" data-name="Trazado 1051987" d="M305,6122.576v353.185" transform="translate(348 -12)" fill="none" stroke="#062678" stroke-width="3"/>
+    <path id="Trazado_1051988" data-name="Trazado 1051988" d="M305,6122.576v353.185" transform="translate(576 -12)" fill="none" stroke="#062678" stroke-width="3"/>
+    <path id="Trazado_1051989" data-name="Trazado 1051989" d="M305,6122.576v353.185" transform="translate(871 -12)" fill="none" stroke="#062678" stroke-width="3"/>
+    <g id="Grupo_1225269" data-name="Grupo 1225269" transform="translate(2 -12)">
+      <path id="Trazado_1051990" data-name="Trazado 1051990" d="M305,6220.956H508.452l-25.957-18.878" transform="translate(140)" fill="none" stroke="#062678" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Trazado_1051991" data-name="Trazado 1051991" d="M304,6202.078H508.452l-25.957,18.878" transform="translate(140 18.878)" fill="none" stroke="#062678" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <g id="Grupo_1225270" data-name="Grupo 1225270" transform="translate(445 6351.078)">
+      <path id="Trazado_1051990-2" data-name="Trazado 1051990" d="M508.452,6220.956H305l25.957-18.878" transform="translate(-305 -6202.078)" fill="none" stroke="#062678" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Trazado_1051991-2" data-name="Trazado 1051991" d="M739.452,6202.078H305l25.957,18.878" transform="translate(-305 -6183.2)" fill="none" stroke="#062678" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <g id="Grupo_1225271" data-name="Grupo 1225271" transform="translate(230 34.422)">
+      <path id="Trazado_1051990-3" data-name="Trazado 1051990" d="M305,6220.956H508.452l-25.957-18.878" transform="translate(140)" fill="none" stroke="#062678" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Trazado_1051991-3" data-name="Trazado 1051991" d="M284,6202.078H508.452l-25.957,18.878" transform="translate(140 18.878)" fill="none" stroke="#062678" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <g id="Grupo_1225272" data-name="Grupo 1225272" transform="translate(883 6327.122)">
+      <path id="Trazado_1051990-4" data-name="Trazado 1051990" d="M508.452,6220.956H305l25.957-18.878" transform="translate(-305 -6202.078)" fill="none" stroke="#062678" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Trazado_1051991-4" data-name="Trazado 1051991" d="M577.452,6202.078H285l25.957,18.878" transform="translate(-285 -6183.2)" fill="none" stroke="#062678" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <g id="Grupo_1225273" data-name="Grupo 1225273" transform="translate(885 6260.122)">
+      <path id="Trazado_1051990-5" data-name="Trazado 1051990" d="M305,6220.956H508.452l-25.957-18.878" transform="translate(-220 -6202.078)" fill="none" stroke="#062678" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Trazado_1051991-5" data-name="Trazado 1051991" d="M282,6202.078H573.452l-25.957,18.878" transform="translate(-285 -6183.2)" fill="none" stroke="#062678" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
