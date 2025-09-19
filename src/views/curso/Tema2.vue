@@ -868,11 +868,10 @@
                 p.text-muted.mb-0 Esto es útil para limpiar el historial antes de compartir los cambios, eliminando commits temporales o combinando cambios relacionados.
 
 
-    .bg-full-width.bg-color-1.mb-lg-0
+    .bg-full-width.bg-color-anexo.mb-lg-0
       .px-4.p-md-5
-        .row.justify-content-center.align-items-center.text-white
-
-          .col-lg
+        .row.justify-content-center.align-items-center
+          .col-lg-8.text-white
             h2.mb-4(data-aos="flip-up") Resolución de conflictos
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Resolución de conflictos, donde se aborda el manejo de discrepancias surgidas al trabajar colaborativamente en archivos de código fuente utilizando sistemas de control de versiones como Git y SVN. 
     
@@ -880,7 +879,26 @@
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p #[strong Anexo. ] Resolución de conflictos
+                p <strong>Anexo. </strong> Resolución de conflictos
+    
+          .col-lg-4
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema2/anexo2.png', alt='')
+    
+
+    //- .bg-full-width.bg-color-1.mb-lg-0
+    //-   .px-4.p-md-5
+    //-     .row.justify-content-center.align-items-center.text-white
+
+    //-       .col-lg
+    //-         h2.mb-4(data-aos="flip-up") Resolución de conflictos
+    //-         p.mb-4(data-aos="fade-right") Se invita a leer el documento Resolución de conflictos, donde se aborda el manejo de discrepancias surgidas al trabajar colaborativamente en archivos de código fuente utilizando sistemas de control de versiones como Git y SVN. 
+    
+    //-         a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
+    //-           .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+    //-             img(src="@/assets/template/icono-pdf.svg")
+    //-           .anexo__texto
+    //-             p #[strong Anexo. ] Resolución de conflictos
 
     // Bloque actividad
     .bg-full-width.border-top.actividad.bg-color-actividad
@@ -986,8 +1004,8 @@ export default {
     background: white
 
 // Colores personalizados para tema Git - Paleta mejorada
-.bg-color-anexo
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important
+// .bg-color-anexo
+//   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important
 
 .bg-color-1
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important

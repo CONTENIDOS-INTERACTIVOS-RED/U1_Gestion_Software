@@ -284,9 +284,12 @@
 
     .bg-full-width.bg-color-anexo.mb-lg-0
       .px-4.p-md-5
-        .row.justify-content-center.align-items-center.text-white
-
-          .col-lg
+        .row.justify-content-center.align-items-center
+          .col-lg-4
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/anexo1.png', alt='')
+    
+          .col-lg-8.text-white
             h2.mb-4(data-aos="flip-up") Control de versiones y plataformas colaborativas
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Control de versiones y plataformas colaborativas, donde se aborda el uso estratégico de sistemas como Git y SVN para gestionar versiones de código fuente, así como su integración con plataformas colaborativas como GitHub, GitLab, Bitbucket, VisualSVN y Assembla.
     
@@ -295,6 +298,21 @@
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
                 p <strong>Anexo. </strong> Control de versiones y plataformas colaborativas
+    
+
+    //- .bg-full-width.bg-color-anexo.mb-lg-0
+    //-   .px-4.p-md-5
+    //-     .row.justify-content-center.align-items-center.text-white
+
+    //-       .col-lg
+    //-         h2.mb-4(data-aos="flip-up") Control de versiones y plataformas colaborativas
+    //-         p.mb-4(data-aos="fade-right") Se invita a leer el documento Control de versiones y plataformas colaborativas, donde se aborda el uso estratégico de sistemas como Git y SVN para gestionar versiones de código fuente, así como su integración con plataformas colaborativas como GitHub, GitLab, Bitbucket, VisualSVN y Assembla.
+    
+    //-         a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+    //-           .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+    //-             img(src="@/assets/template/icono-pdf.svg")
+    //-           .anexo__texto
+    //-             p <strong>Anexo. </strong> Control de versiones y plataformas colaborativas
 
 
     // Bloque 16/13: Material complementario
@@ -328,8 +346,3 @@ export default {
   },
 }
 </script>
-
-<style lang="sass">
-.bg-color-anexo
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important
-</style>
