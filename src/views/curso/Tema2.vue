@@ -949,11 +949,6 @@ export default {
       this.$aosRefresh()
     })
   },
-  methods: {
-    obtenerLink(ruta) {
-      return ruta
-    },
-  },
 }
 </script>
 
